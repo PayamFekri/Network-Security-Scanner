@@ -1,0 +1,32 @@
+{
+  "gateway": "192.168.56.1",
+  "local_ip": "192.168.43.203",
+  "scan_time": "2026-05-25T13:53:03.313431",
+  "devices": {
+    "192.168.43.1": {
+      "ip": "192.168.43.1",
+      "mac": null,
+      "hostname": null,
+      "os_type": "Linux / macOS / Android",
+      "device_type": "mobile",
+      "ports": [],
+      "last_seen": "2026-05-25T13:49:46.356288",
+      "is_gateway": false,
+      "is_local": false
+    },
+    "192.168.43.203": {
+      "ip": "192.168.43.203",
+      "mac": null,
+      "hostname": "Payam",
+      "os_type": "Windows",
+      "device_type": "local",
+      "ports": [
+        80,
+        445
+      ],
+      "last_seen": "2026-05-25T13:51:47.434796",
+      "is_gateway": false,
+      "is_local": true
+    }
+  }
+}

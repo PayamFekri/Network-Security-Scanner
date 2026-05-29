@@ -1,0 +1,104 @@
+[
+  {
+    "type": "new_device",
+    "ip": "192.168.1.1",
+    "os": "Router / Switch",
+    "timestamp": "2026-05-25T06:56:26.305115"
+  },
+  {
+    "type": "new_device",
+    "ip": "192.168.1.103",
+    "os": "Windows",
+    "timestamp": "2026-05-25T06:56:26.318064"
+  },
+  {
+    "type": "new_device",
+    "ip": "192.168.1.1",
+    "os": "Router / Switch",
+    "timestamp": "2026-05-25T07:05:50.673672"
+  },
+  {
+    "type": "new_device",
+    "ip": "192.168.1.103",
+    "os": "Windows",
+    "timestamp": "2026-05-25T07:05:50.711642"
+  },
+  {
+    "type": "new_device",
+    "ip": "192.168.1.104",
+    "os": "Linux / macOS / Android",
+    "timestamp": "2026-05-25T07:05:50.735360"
+  },
+  {
+    "type": "new_device",
+    "ip": "192.168.1.1",
+    "os": "Router / Switch",
+    "timestamp": "2026-05-25T07:20:07.340477"
+  },
+  {
+    "type": "new_device",
+    "ip": "192.168.1.103",
+    "os": "Windows",
+    "timestamp": "2026-05-25T07:20:07.353278"
+  },
+  {
+    "type": "new_device",
+    "ip": "192.168.1.104",
+    "os": "Linux / macOS / Android",
+    "timestamp": "2026-05-25T07:20:07.367940"
+  },
+  {
+    "type": "new_device",
+    "ip": "192.168.1.1",
+    "os": "Router / Switch",
+    "timestamp": "2026-05-25T07:27:12.811588"
+  },
+  {
+    "type": "new_device",
+    "ip": "192.168.1.103",
+    "os": "Windows",
+    "timestamp": "2026-05-25T07:27:12.831897"
+  },
+  {
+    "type": "new_device",
+    "ip": "192.168.1.104",
+    "os": "Linux / macOS / Android",
+    "timestamp": "2026-05-25T07:27:12.847988"
+  },
+  {
+    "type": "new_device",
+    "ip": "192.168.43.1",
+    "os": "Linux / macOS / Android",
+    "timestamp": "2026-05-25T14:29:23.853989"
+  },
+  {
+    "type": "new_device",
+    "ip": "192.168.43.27",
+    "os": "Linux / macOS / Android",
+    "timestamp": "2026-05-25T14:29:23.877071"
+  },
+  {
+    "type": "new_device",
+    "ip": "192.168.43.203",
+    "os": "Windows",
+    "timestamp": "2026-05-25T14:29:23.901437"
+  },
+  {
+    "type": "new_device",
+    "ip": "192.168.43.1",
+    "os": "Linux / macOS / Android",
+    "timestamp": "2026-05-25T14:36:29.307882"
+  },
+  {
+    "type": "new_device",
+    "ip": "192.168.43.27",
+    "os": "Linux / macOS / Android",
+    "timestamp": "2026-05-25T14:36:29.326235"
+  },
+  {
+    "type": "new_device",
+    "ip": "192.168.43.203",
+    "os": "Windows",
+    "timestamp": "2026-05-25T14:36:29.338584"
+  }
+]

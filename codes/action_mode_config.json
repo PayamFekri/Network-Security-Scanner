@@ -1,0 +1,15 @@
+{
+  "auto_scan_interval": 60,
+  "auto_save_to_db": true,
+  "auto_close_ports": false,
+  "auto_alert_sound": true,
+  "auto_report_hour": 8,
+  "last_scan_time": null,
+  "enabled_features": {
+    "network_scan": true,
+    "threat_detection": true,
+    "vulnerability_scan": true,
+    "wifi_scan": false,
+    "bandwidth_monitor": false
+  }
+}
