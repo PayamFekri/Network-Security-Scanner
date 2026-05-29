@@ -53,6 +53,8 @@
 
 > **Important:** Always test on your own equipment. Written permission is required before scanning other people’s networks.
 
+> this project was written during an internet outage 
+
 ---
 
 ## <a name="persian-version"></a>نسخه فارسی
@@ -102,7 +104,7 @@
 ۵. **ویندوز خود را به‌روز نگه دارید** – وصله‌های امنیتی را نصب کنید  
 
 > **نکته مهم:** همیشه روی تجهیزات خودتان تست کنید. برای اسکن شبکه دیگران حتماً اجازه کتبی داشته باشید.
-
+> این پروژه در زمان قطعی اینترنت در ایران نوشته شده است.
 ---
 
 Ⓒ 2025 Payam Fekri – All rights reserved
