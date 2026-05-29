@@ -30,12 +30,11 @@
 
 ### فارسی
 1. مخزن را کلون کنید:
-```bash
+```
 git clone https://github.com/PayamFekri/Network-Security-Scanner.git
 cd Network-Security-Scanner/codes
 در صورت نیاز، کتابخانه‌های مورد نیاز را نصب کنید:
 
-bash
 pip install -r requirements.txt
 برنامه را اجرا کنید:
 
