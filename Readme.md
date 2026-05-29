@@ -136,7 +136,6 @@ pyinstaller --onefile --windowed --icon=icon.ico main.py
 ```bash
 pyinstaller --onefile --windowed main.py
 ```
-```
 
 
 Ⓒ 2025 Payam Fekri – All rights reserved
