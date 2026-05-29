@@ -107,5 +107,35 @@
 
 > این پروژه در زمان قطعی اینترنت در ایران نوشته شده است.
 ---
+```markdown
+## Quick Run & EXE Creation
+
+### Run Directly (Python)
+```bash
+python network_scanner.py
+```
+
+### Create EXE with Icon
+
+1. Install PyInstaller:
+```bash
+pip install pyinstaller
+```
+
+2. Place `icon.ico` in the program folder
+
+3. Build:
+```bash
+pyinstaller --onefile --windowed --icon=icon.ico network_scanner.py
+```
+
+> Output: `dist/network_scanner.exe`
+
+### Without Icon
+```bash
+pyinstaller --onefile --windowed network_scanner.py
+```
+```
+
 
 Ⓒ 2025 Payam Fekri – All rights reserved
