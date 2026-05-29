@@ -127,14 +127,14 @@ pip install pyinstaller
 
 3. Build:
 ```bash
-pyinstaller --onefile --windowed --icon=icon.ico network_scanner.py
+pyinstaller --onefile --windowed --icon=icon.ico main.py
 ```
 
 > Output: `dist/network_scanner.exe`
 
 ### Without Icon
 ```bash
-pyinstaller --onefile --windowed network_scanner.py
+pyinstaller --onefile --windowed main.py
 ```
 ```
 
