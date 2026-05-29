@@ -1,97 +1,108 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Network-Security%20Scanner-blue?style=for-the-badge&logo=wireshark"/>
-  <img src="https://img.shields.io/badge/Version-1.0-green?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Author-Payam%20Fekri-orange?style=for-the-badge"/>
-</p>
+# Network Security Scanner
 
-# 🔒 Network Security Scanner | اسکنر امنیت شبکه
+**Author:** Payam Fekri  
+**Version:** 1.0  
+**Year:** 2026  
+**GitHub:** [https://github.com/PayamFekri](https://github.com/PayamFekri)
 
-**📅 سال انتشار:** 2026  
-**📄 مجوز:** تمامی حقوق محفوست (All rights reserved)  
-**🌐 زبان:** پشتیبانی از فارسی و انگلیسی
-
-> ابزاری حرفه‌ای برای اسکن شبکه، تشخیص تهدیدات امنیتی، مانیتورینگ اینترنت و تولید گزارش‌های امنیتی.
+> A professional tool for network scanning, threat detection, internet monitoring, and generating security reports.
 
 ---
 
-## ✨ ویژگی‌های کلیدی | Key Features
+## English | [فارسی](#persian-version)
 
-| دسته | قابلیت‌ها (EN/FA) |
-| :--- | :--- |
-| **🔍 اسکن شبکه** | Single IP Scan / اسکن تک IP • Quick Scan / اسکن سریع • Auto Scan / اسکن خودکار |
-| **🛡️ امنیت** | Vulnerability Scanner / آسیب‌پذیری‌ها • Threat History / تاریخچه تهدیدات • Known Devices / دستگاه‌های شناخته شده |
-| **📡 بی‌سیم** | Wi-Fi Scanner / اسکن وای‌فای • Channel Analysis / تحلیل کانال • Security Audit / ممیزی امنیت |
-| **📊 مانیتورینگ** | Internet Monitor / قطعی اینترنت • Bandwidth Monitor / پهنای باند • Network Map / نقشه شبکه |
-| **📄 گزارشات** | PDF Report / گزارش PDF • Database Manager / مدیریت دیتابیس • Auto Mode / حالت خودکار ۲۴ ساعته |
+## Features
+
+| Option | Description |
+|--------|-------------|
+| 1 | Single IP Scan – deep scan of a specific device |
+| 2 | Fast Network Scan – discover all active devices |
+| 3 | Automatic Scan – periodic scanning (5/15/30 min) |
+| 4 | Threat History – view past security alerts |
+| 5 | Known Devices – manage trusted devices |
+| 6 | WiFi Scan – detect nearby wireless networks |
+| 7 | Traceroute – step‑by‑step path to destination |
+| 8 | Internet Monitor – log outages and instability |
+| 9 | Advanced Vulnerability Scan – detect risky ports (FTP, Telnet, SMB, RDP, etc.) |
+| 10 | Network Map – graphical tree view of your network |
+| 11 | Bandwidth Monitor – real‑time upload/download speed |
+| 12 | Database Management – store all scans in SQLite |
+| 13 | Automatic Mode – hands‑off scheduled scanning with alerts |
+| 14 | PDF Report – professional security report (requires reportlab) |
+| 20 | Help – this guide |
+| 0 | Exit |
+
+## Output Files (saved in the program folder)
+
+- `scan_*.csv` – network scan results
+- `wifi_scan_*.csv` – WiFi scan results
+- `threat_alerts.json` – security alerts
+- `known_devices.json` – trusted devices list
+- `internet_outages_*.json` – outage logs
+- `traceroute_*.txt` – traceroute results
+- `security_report_*.pdf` – PDF reports
+- `network_scanner.db` – main SQLite database
+
+## Security Recommendations
+
+1. **Change your modem’s default password**
+2. **Use WPA2 or WPA3 encryption** – avoid WEP/WPA1
+3. **Close unnecessary ports** – disable Telnet and FTP
+4. **Optimise your WiFi channel** – choose the least congested one
+5. **Keep Windows updated** – install security patches
+
+> **Important:** Always test on your own equipment. Written permission is required before scanning other people’s networks.
 
 ---
 
-## 🚀 نصب و راه‌اندازی سریع | Quick Start
+## <a name="persian-version"></a>نسخه فارسی
 
-### فارسی
-1. مخزن را کلون کنید:
-```
-git clone https://github.com/PayamFekri/Network-Security-Scanner.git
-cd Network-Security-Scanner/codes
-در صورت نیاز، کتابخانه‌های مورد نیاز را نصب کنید:
+**نویسنده:** پیام فکری  
+**نسخه:** 1.0  
+**سال انتشار:** 2026  
 
-pip install -r requirements.txt
-برنامه را اجرا کنید:
+## قابلیت‌ها
 
-bash
-python main.py
-English
-Clone the repository:
+| گزینه | توضیح |
+|-------|-------|
+| 1 | اسکن تک IP – بررسی کامل یک دستگاه خاص |
+| 2 | اسکن سریع شبکه – پیدا کردن تمام دستگاه‌های روشن |
+| 3 | اسکن خودکار – اسکن دوره‌ای (۵/۱۵/۳۰ دقیقه) |
+| 4 | تاریخچه تهدیدات – مشاهده هشدارهای قبلی |
+| 5 | دستگاه‌های شناخته شده – مدیریت دستگاه‌های مطمئن |
+| 6 | اسکن وای‌فای – شناسایی شبکه‌های بی‌سیم اطراف |
+| 7 | ردیابی مسیر – نمایش گام‌به‌گام مسیر تا مقصد |
+| 8 | مانیتور اینترنت – ثبت قطعی‌ها و ناپایداری |
+| 9 | اسکن آسیب‌پذیری پیشرفته – شناسایی پورت‌های خطرناک (FTP، Telnet، SMB، RDP و ...) |
+| 10 | نقشه شبکه – نمایش گرافیکی درختی از شبکه |
+| 11 | مانیتور پهنای باند – نمایش لحظه‌ای سرعت آپلود و دانلود |
+| 12 | مدیریت دیتابیس – ذخیره همه اسکن‌ها در SQLite |
+| 13 | حالت خودکار – اسکن زمان‌بندی شده بدون دخالت شما |
+| 14 | گزارش PDF – گزارش حرفه‌ای امنیتی (نیازمند reportlab) |
+| 20 | راهنما – این صفحه |
+| 0 | خروج |
 
-bash
-git clone https://github.com/PayamFekri/Network-Security-Scanner.git
-cd Network-Security-Scanner/codes
-Install dependencies:
+## فایل‌های ذخیره شده (در پوشه برنامه)
 
-bash
-pip install -r requirements.txt
-Run the program:
+- `scan_*.csv` – نتایج اسکن شبکه
+- `wifi_scan_*.csv` – نتایج اسکن وای‌فای
+- `threat_alerts.json` – هشدارهای امنیتی
+- `known_devices.json` – لیست دستگاه‌های شناخته شده
+- `internet_outages_*.json` – گزارش قطعی‌های اینترنت
+- `traceroute_*.txt` – نتایج ردیابی مسیر
+- `security_report_*.pdf` – گزارش‌های PDF
+- `network_scanner.db` – دیتابیس اصلی برنامه
 
-bash
-python main.py
-🗺️ نقشه راه برنامه | Menu Overview
-<details> <summary><b>📌 13 گزینه اصلی | 13 Main Options (Click to expand)</b></summary>
-#	نام (EN)	نام (FA)	توضیح مختصر
-1	Single IP Scan	اسکن تک IP	بررسی کامل یک دستگاه خاص
-2	Quick Network Scan	اسکن سریع شبکه	یافتن تمام دستگاه‌های متصل
-3	Auto Scan	اسکن خودکار	اسکن دوره‌ای با تایمر
-4	Threat History	تاریخچه تهدیدات	نمایش هشدارهای قبلی
-5	Known Devices	دستگاه‌های شناخته شده	مدیریت دستگاه‌های مطمئن
-6	Wi-Fi Scanner	اسکن وای‌فای	شناسایی شبکه‌های بی‌سیم
-7	Traceroute	ردیابی مسیر	نمایش مسیر تا مقصد
-8	Internet Monitor	مانیتور اینترنت	ثبت قطعی‌های اینترنت
-9	Vulnerability Scan	اسکن آسیب‌پذیری	شناسایی پورت‌های خطرناک
-10	Network Map	نقشه شبکه	نمایش گرافیکی شبکه
-11	Bandwidth Monitor	مانیتور پهنای باند	سرعت لحظه‌ای آپلود/دانلود
-12	Database Manager	مدیریت دیتابیس	ذخیره و مدیریت تاریخچه
-13	Auto Mode	حالت خودکار	نظارت خودکار ۲۴ ساعته
-</details>
-🧠 نکات امنیتی | Security Tips
-اولویت	توصیه (FA)	Recommendation (EN)
-🔴	رمز پیش‌فرض مودم را تغییر دهید	Change your modem's default password
-🟠	از WPA2/WPA3 استفاده کنید (نه WEP)	Use WPA2/WPA3 (not WEP)
-🟡	پورت‌های غیرضروری (Telnet, FTP) را ببندید	Close unnecessary ports (Telnet, FTP)
-🟢	ویندوز را به‌روز نگه دارید	Keep Windows updated
-⚠️ تذکر مهم: این ابزار فقط برای تست روی تجهیزات خودتان یا با اجازه کتبی از صاحب شبکه طراحی شده است.
+## توصیه‌های امنیتی
 
-📁 فایل‌های خروجی | Output Files
-نام فایل	توضیحات
-scan_*.csv	نتایج اسکن شبکه
-wifi_scan_*.csv	نتایج اسکن وای‌فای
-threat_alerts.json	هشدارهای امنیتی
-known_devices.json	لیست دستگاه‌های شناخته شده
-internet_outages_*.json	گزارش قطعی‌های اینترنت
-network_scanner.db	دیتابیس اصلی (SQLite)
-👨‍💻 ارتباط با نویسنده | Contact
-پدیدآورنده: Payam Fekri
+۱. **رمز مودم خود را تغییر دهید** – هرگز از رمز پیش‌فرض استفاده نکنید  
+۲. **از رمزگذاری WPA2 یا WPA3 استفاده کنید** – از WEP و WPA1 استفاده نکنید  
+۳. **پورت‌های غیرضروری مودم را ببندید** – Telnet و FTP را غیرفعال کنید  
+۴. **کانال وای‌فای خود را تنظیم کنید** – از کم‌تداخل‌ترین کانال استفاده کنید  
+۵. **ویندوز خود را به‌روز نگه دارید** – وصله‌های امنیتی را نصب کنید  
 
-گیت‌هاب: github.com/PayamFekri
+> **نکته مهم:** همیشه روی تجهیزات خودتان تست کنید. برای اسکن شبکه دیگران حتماً اجازه کتبی داشته باشید.
 
-پروژه: Network-Security-Scanner
+---
 
-<p align="center"> <b>© 2026 Payam Fekri - تمامی حقوق محفوست | All Rights Reserved</b><br> <i>استفاده مسئولانه از این ابزار توصیه می‌شود</i> </p> ```
+Ⓒ 2025 Payam Fekri – All rights reserved
