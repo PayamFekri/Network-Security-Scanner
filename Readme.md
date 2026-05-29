@@ -107,12 +107,13 @@
 
 > این پروژه در زمان قطعی اینترنت در ایران نوشته شده است.
 ---
-```markdown
+
 ## Quick Run & EXE Creation
 
 ### Run Directly (Python)
+
 ```bash
-python network_scanner.py
+python main.py
 ```
 
 ### Create EXE with Icon
